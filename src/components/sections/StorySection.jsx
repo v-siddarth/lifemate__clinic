@@ -12,12 +12,10 @@ export default function StorySection() {
             <img src="/images/story-team.png" alt="Medical team" className="h-[280px] w-full rounded-[22px] border-2 border-[#9ed9fa] object-cover md:h-[360px] lg:h-[430px]" />
             <div className="pt-2">
               <p className="text-[16px] leading-8 text-[#5d5d5d]">
-                {clinicInfo.name} is a Pune-based practice delivering coordinated cardiac, vascular, diabetic, and general medical care. Led by {clinicInfo.doctorName}, the clinic blends interventional cardiology expertise with preventive services and everyday clinical care so patients can manage current symptoms and long-term health risks. Our approach prioritizes clear communication, accurate diagnosis, and practical treatment plans.
+                {clinicInfo.name} was built with one clear mission: make quality healthcare personal, accessible, and dependable for every family we serve. Under the leadership of {clinicInfo.doctorName}, our team combines specialist clinical insight with compassionate day-to-day care, so every patient receives attention that is both medically sound and deeply human.
               </p>
               <p className="mt-4 text-[15px] leading-7 text-[#5d5d5d]">
-                Address: {clinicInfo.address}
-                <br />
-                Email: {clinicInfo.email}
+                From the first consultation to long-term follow-up, we focus on timely diagnosis, transparent communication, and practical treatment planning. Whether care is preventive or condition-focused, our commitment stays the same: deliver trusted guidance, measurable outcomes, and a confident care experience at every step.
               </p>
               <a href="#contact" className="mt-9 inline-flex rounded-[14px] bg-gradient-to-r from-[#2cbeff] to-[#00a4f4] px-8 py-4 text-[17px] font-semibold leading-none text-white md:px-10 md:py-5 md:text-[18px]">Contact the clinic</a>
             </div>

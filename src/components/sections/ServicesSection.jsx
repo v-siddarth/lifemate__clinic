@@ -118,32 +118,32 @@ const categories = [
     ],
   },
   {
-    title: "General Medicine",
+    title: "Gastroenterology",
     icon: GeneralIcon,
     services: [
       {
-        title: "General Physician Consultation",
-        text: "Comprehensive evaluation for day-to-day medical concerns and chronic conditions.",
+        title: "Digestive System Consultation",
+        text: "Comprehensive evaluation of digestive health including stomach, intestines, liver, and related conditions.",
       },
       {
-        title: "Fever & Infection Treatment",
-        text: "Assessment and treatment for acute infections, viral illness, and fever care.",
+        title: "Acidity, Gas & Indigestion Treatment",
+        text: "Diagnosis and management of acid reflux, bloating, gastritis, and common digestive disorders.",
       },
       {
-        title: "Blood Pressure Monitoring",
-        text: "Routine checks, tracking, and counseling for lifestyle and medication adherence.",
+        title: "Liver & Gallbladder Care",
+        text: "Assessment and treatment for fatty liver, liver disorders, gallstones, and related digestive conditions.",
       },
       {
-        title: "Preventive Health Checkups",
-        text: "Age- and risk-based screenings to identify health issues early.",
+        title: "Constipation & IBS Management",
+        text: "Personalized care for chronic constipation, irritable bowel syndrome (IBS), and bowel irregularities.",
       },
       {
-        title: "Routine Blood Tests",
-        text: "Lab coordination for CBC, lipid profile, sugar testing, and basic metabolic panels.",
+        title: "Routine Gastro Tests",
+        text: "Guidance for digestive-related tests including liver function tests and basic diagnostic screenings.",
       },
       {
-        title: "Vaccination Services",
-        text: "Adult immunizations and preventive vaccine guidance based on age and risk.",
+        title: "Diet & Digestive Health Guidance",
+        text: "Nutritional advice and lifestyle recommendations to improve digestion and maintain gut health.",
       },
     ],
   },
@@ -169,7 +169,7 @@ export default function ServicesSection() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % categories.length);
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(intervalId);
   }, []);

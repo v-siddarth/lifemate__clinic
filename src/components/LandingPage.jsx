@@ -5,7 +5,6 @@ import StorySection from "./sections/StorySection";
 import HowItWorksSection from "./sections/HowItWorksSection";
 import TestimonialsSection from "./sections/TestimonialsSection";
 import SpecialistsSection from "./sections/SpecialistsSection";
-import FAQSection from "./sections/FAQSection";
 import HelpDeskSection from "./sections/HelpDeskSection";
 import FooterSection from "./sections/FooterSection";
 
@@ -19,7 +18,6 @@ export default function LandingPage() {
       <HowItWorksSection />
       <TestimonialsSection />
       <SpecialistsSection />
-      <FAQSection />
       <HelpDeskSection />
       <FooterSection />
     </>

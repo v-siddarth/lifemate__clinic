@@ -54,12 +54,11 @@ export default function TestimonialsSection() {
           ))}
         </div>
 
-        <div className="mt-14 grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-6">
+        <div className="mx-auto mt-14 grid max-w-[980px] grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-6">
           {[
             { title: "Mon-Sat", subtitle: "09:30 AM - 6:00 PM" },
             { title: "+91 84596 12363", subtitle: "Primary Contact" },
             { title: "JM Road", subtitle: "Deccan Gymkhana, Pune" },
-            { title: "Cardiology", subtitle: "Consultation & Prevention" },
           ].map((item) => (
             <div key={item.title} className="rounded-2xl border border-[#9ed9fa] bg-[#f3f8fc] px-4 py-6 text-center shadow-[0_8px_18px_rgba(0,0,0,0.04)]">
               <p className="text-[22px] font-bold leading-tight text-[#0084d4] md:text-[28px]">{item.title}</p>

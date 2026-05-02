@@ -14,7 +14,7 @@ export default function FooterSection() {
       title: "Support",
       items: [
         { label: "Appointment Booking", href: "#appointment" },
-        { label: "Clinic Timings", href: "#faq" },
+        { label: "Clinic Timings", href: "#contact" },
         { label: "Help Desk", href: "#contact" },
         { label: "Reports & Follow-up", href: "#services" },
         { label: "Contact Clinic", href: "#contact" },

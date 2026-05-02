@@ -11,15 +11,32 @@ export default function AppointmentStrip() {
 
         <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:mt-8 xl:grid-cols-[1fr_1fr_1fr_220px] xl:items-end xl:gap-5">
           <label className="grid gap-3">
-            <span className="text-[17px] font-medium text-[#888888]">✉ Email Address</span>
+            <span className="inline-flex items-center gap-2 text-[17px] font-medium text-[#888888]">
+              <svg className="h-[18px] w-[18px] text-[#7f7f7f]" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3.5" y="6.5" width="17" height="11" rx="2.5" stroke="currentColor" strokeWidth="1.8" />
+                <path d="M5 8L12 13L19 8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              Email Address
+            </span>
             <input type="email" placeholder="Enter your email address" className="h-[64px] rounded-2xl border border-[#d1d1d1] bg-white px-5 text-[16px] text-[#4f4f4f] placeholder:text-[#d1d1d1]" />
           </label>
           <label className="grid gap-3">
-            <span className="text-[17px] font-medium text-[#888888]">📞 Contact Number</span>
+            <span className="inline-flex items-center gap-2 text-[17px] font-medium text-[#888888]">
+              <svg className="h-[18px] w-[18px] text-[#7f7f7f]" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5.5 4.5H8.8L10.2 8.2L8.5 10.3C9.5 12.3 11 13.8 13 14.8L15.1 13.1L18.8 14.5V17.8C18.8 18.7 18.1 19.5 17.2 19.5C10.6 19.1 5 13.5 4.5 6.8C4.5 5.9 5.2 5.2 6.1 5.2" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              Contact Number
+            </span>
             <input type="tel" placeholder="Enter your contact number" className="h-[64px] rounded-2xl border border-[#d1d1d1] bg-white px-5 text-[16px] text-[#4f4f4f] placeholder:text-[#d1d1d1]" />
           </label>
           <label className="grid gap-3">
-            <span className="text-[17px] font-medium text-[#888888]">📅 Date of Appointment</span>
+            <span className="inline-flex items-center gap-2 text-[17px] font-medium text-[#888888]">
+              <svg className="h-[18px] w-[18px] text-[#7f7f7f]" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3.5" y="5.5" width="17" height="15" rx="2.5" stroke="currentColor" strokeWidth="1.8" />
+                <path d="M8 3.8V7.2M16 3.8V7.2M3.5 9.2H20.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+              </svg>
+              Date of Appointment
+            </span>
             <input type="date" className="h-[64px] rounded-2xl border border-[#d1d1d1] bg-white px-5 text-[16px] text-[#4f4f4f]" />
           </label>
           <a

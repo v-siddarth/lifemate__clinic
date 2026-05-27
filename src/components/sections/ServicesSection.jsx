@@ -126,24 +126,24 @@ const categories = [
         text: "Comprehensive evaluation of digestive health including stomach, intestines, liver, and related conditions.",
       },
       {
-        title: "Acidity, Gas & Indigestion Treatment",
-        text: "Diagnosis and management of acid reflux, bloating, gastritis, and common digestive disorders.",
-      },
-      {
         title: "Liver & Gallbladder Care",
         text: "Assessment and treatment for fatty liver, liver disorders, gallstones, and related digestive conditions.",
       },
       {
-        title: "Constipation & IBS Management",
-        text: "Personalized care for chronic constipation, irritable bowel syndrome (IBS), and bowel irregularities.",
+        title: "Acidity, Gas & IBS Management",
+        text: "Diagnosis and personalized care for acid reflux, bloating, chronic constipation, irritable bowel syndrome (IBS), and common digestive disorders.",
       },
       {
-        title: "Routine Gastro Tests",
-        text: "Guidance for digestive-related tests including liver function tests and basic diagnostic screenings.",
+        title: "Endoscopy (Laparoscopy/Colonoscopy)",
+        text: "Advanced diagnostic and therapeutic endoscopic procedures for comprehensive evaluation and treatment of the gastrointestinal tract.",
       },
       {
-        title: "Diet & Digestive Health Guidance",
-        text: "Nutritional advice and lifestyle recommendations to improve digestion and maintain gut health.",
+        title: "Gastroscopy",
+        text: "Visual examination of the upper digestive system to accurately diagnose and treat esophageal, stomach, and duodenal issues.",
+      },
+      {
+        title: "GI Surgery",
+        text: "Specialized surgical treatments for complex gastrointestinal disorders, ensuring safe interventions and optimal digestive health.",
       },
     ],
   },

@@ -12,7 +12,7 @@ export default function StorySection() {
             <img src="/images/story-team.png" alt="Medical team" className="h-[280px] w-full rounded-[22px] border-2 border-[#9ed9fa] object-cover md:h-[360px] lg:h-[430px]" />
             <div className="pt-2">
               <p className="text-[16px] leading-8 text-[#5d5d5d]">
-                {clinicInfo.name} was built with one clear mission: make quality healthcare personal, accessible, and dependable for every family we serve. Under the leadership of {clinicInfo.doctorName}, our team combines specialist clinical insight with compassionate day-to-day care, so every patient receives attention that is both medically sound and deeply human.
+                {clinicInfo.name} was built with one clear mission: make quality healthcare personal, accessible, and dependable for every family we serve. Our team combines specialist clinical insight with compassionate day-to-day care, so every patient receives attention that is both medically sound and deeply human.
               </p>
               <p className="mt-4 text-[15px] leading-7 text-[#5d5d5d]">
                 From the first consultation to long-term follow-up, we focus on timely diagnosis, transparent communication, and practical treatment planning. Whether care is preventive or condition-focused, our commitment stays the same: deliver trusted guidance, measurable outcomes, and a confident care experience at every step.
